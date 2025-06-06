@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VAC: Pedidos Maison&Objet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/heroicons/2.0.18/24/outline/ академический-cap.svg" rel="stylesheet"> <!-- Example, not used, but shows how to link external SVGs if needed -->
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0"
+  }
+}
+</script>
+<style>
+  body {
+    font-family: 'GFS Didot', serif; /* Applied Didot font */
+    background-image: url('portada.png'); /* Updated to use local image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #0B192E; /* Fallback color similar to image's dark blue */
+  }
+  /* Hide default number input spinners */
+  .no-number-spinners::-webkit-outer-spin-button,
+  .no-number-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .no-number-spinners {
+    -moz-appearance: textfield; /* Firefox */
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

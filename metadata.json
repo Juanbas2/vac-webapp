@@ -1,0 +1,6 @@
+{
+  "name": "VAC: Pedidos Maison&Objet",
+  "description": "Una aplicación sencilla para rastrear pedidos de productos, incluyendo tipo, dibujo y color, para una tienda pop-up.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

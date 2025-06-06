@@ -14,7 +14,7 @@ import {
   SECONDARY_COLOR_NONE_VALUE,
   DEFAULT_SHIPPING_ZONE,
   SHIPPING_ZONE_PLACEHOLDER_VALUE
-} from '../../constants'; 
+} from '../constants'; 
 import Button from './ui/Button';
 import Input from './ui/Input';
 import Select from './ui/Select';

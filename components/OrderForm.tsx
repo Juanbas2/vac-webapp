@@ -1,7 +1,7 @@
 
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { Order, ProductDiseno, SubOrder, ShippingZone } from '../../types'; 
+import { Order, ProductDiseno, SubOrder, ShippingZone } from '../types'; 
 import { 
   AVAILABLE_DISENOS,      
   AVAILABLE_PRODUCTOS,    
@@ -18,7 +18,7 @@ import {
 import Button from './ui/Button';
 import Input from './ui/Input';
 import Select from './ui/Select';
-import { getUnitPrice } from '../../pricing';
+import { getUnitPrice } from '../pricing';
 
 interface OrderFormProps {
   onSubmitOrder: (customerName: string, shippingZone: ShippingZone, subOrders: Omit<SubOrder, 'id'>[], orderId?: string) => void;

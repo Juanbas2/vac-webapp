@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import { Order, ShippingZone } from '../../types';
+import { Order, ShippingZone } from '../types';
 import Button from './ui/Button';
 import { openOrderPrintView } from '../lib/printOrder'; 
-import { SECONDARY_COLOR_NONE_VALUE, AVAILABLE_SHIPPING_ZONES } from '../../constants';
+import { SECONDARY_COLOR_NONE_VALUE, AVAILABLE_SHIPPING_ZONES } from '../constants';
 
 interface OrderItemProps {
   order: Order;
